@@ -1,0 +1,13 @@
+{
+  "name": "watch-ecom-application",
+  "version": "1.0.0",
+  "description": "Ecommerce application using node-express with EJS template",
+  "main": "index.js",
+  "repository": "https://github.com/hossain-shahrier/responsive-watch-ecom-application.git",
+  "author": "hossain-shahrier <hossainshahrier.shm@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "laravel-mix": "^6.0.39"
+  }
+}

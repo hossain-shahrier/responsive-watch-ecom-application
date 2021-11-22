@@ -8,6 +8,34 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "laravel-mix": "^6.0.39"
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express-ejs-layouts": "^2.5.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "expresss": "^0.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.13",
+    "notie": "^4.3.1"
+  },
+  "scripts": {
+    "serve": "node server.js",
+    "dev": "nodemon server.js",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.39",
+    "nodemon": "^2.0.15",
+    "resolve-url-loader": "4.0.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0"
   }
 }
